@@ -1,0 +1,46 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+/scripts-dist
+/dist
+
+# misc
+.DS_Store
+.history
+.idea
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.vercel
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# next.js
+/.next/
+/out/
+
+# ali oss
+/ossutil_output
+
+# Sentry Config File
+.sentryclirc
+
+# SEO
+/public/sitemap*.xml
+/public/robots.txt
